@@ -1,0 +1,89 @@
+img {
+  width: 50%;
+  height: auto;
+  padding: o;
+}
+
+.grid {
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 60px;
+  padding: 30px;
+  background-color: aliceblue;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.gridimages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navlink {
+  float: right;
+  display: block;
+  padding: 30px;
+  background-color: blueviolet;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  align-content: right;
+  list-style-type: non;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.navlink:hover {
+  background-color: pink;
+}
+
+button {
+  background-color: blueviolet;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 460px) {
+  .navlink {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.87rem;
+  }
+}

@@ -1,2 +1,2 @@
-# Yngve_finale_Website
+# Yngve-Jentz-Website
 Created with CodeSandbox

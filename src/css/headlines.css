@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  background-color: aliceblue;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline {
+  color: blueviolet;
+  background-color: aliceblue;
+  font-size: 3em;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  width: 100;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 460px) {
+  .headline {
+    padding: ;
+    font-size: 1, 5em;
+  }
+}
+
+.links {
+  color: blueviolet;
+  font-size: 1.4em;
+  padding: 15px;
+}
+
+h3 {
+  color: blueviolet;
+}
